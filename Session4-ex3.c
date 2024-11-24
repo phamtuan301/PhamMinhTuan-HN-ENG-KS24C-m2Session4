@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
 	int x;
+	printf("moi ban nhap so nguyen: ");
 	scanf("%d", &x);
 	if (x % 3 == 0){
 		printf("%d chia het cho 3\n");
