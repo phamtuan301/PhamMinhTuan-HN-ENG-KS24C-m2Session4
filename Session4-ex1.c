@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
 	int x;
+	printf("moi ban nhap so nguyen: ");
 	scanf("%d", &x);
 	if (x > 0){
 		printf("%d la so duong", x);
 	}
-	if (x < 0){
+	else if (x < 0){
 		printf("%d la so am", x);
 	}
 	else{
